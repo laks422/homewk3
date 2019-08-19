@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+</head>
+<body>
+        <nav class="navbar navbar-expand-sm navbar-dark" style=" background-color: violet;">
+
+              
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/index">Home</a>
+                  </li>
+                 
+                  <li class="nav-item">
+                        <a class="nav-link active" href="/registration">Registration</a>
+                      </li>
+                </ul>
+              
+              </nav>
+              <div class="container">
+                  <div class="row justify-content-center">
+                      <div class="col-12 col-sm-6" style="margin-top: 50px">
+                        
+                         <form action="/read" method="POST" style="border: 1px solid rgb(170, 103, 125);padding: 30px">
+                             <div class="form-group row">
+                             <label for="name" class="col-sm-2 col-form-label">Name</label>
+                             <div class="col-sm-10">
+                             <input type="text" name="name" class="form-control">
+                             </div>
+                            </div>
+                              <div class="form-group row">
+                                <label for="rollno" class="col-sm-2 col-form-label">Rollno</label>
+                                <div class="col-sm-10">
+                                <input type="text" rollno="rollno" class="form-control">
+                                </div>
+                               </div>
+                               <div class="form-group row">
+                                <label for="admissionno" class="col-sm-2 col-form-label">Adm.No</label>
+                                <div class="col-sm-10">
+                                <input type="text" admissionno="admissionno" class="form-control">
+                                </div>
+                               </div>
+                            
+                           
+                            
+                             <div class="form-group row">
+                                <label for="college" class="col-sm-2 col-form-label">Select your College</label>
+                                <div class="col-sm-10">
+                                <select name="college" id="college">
+                                    <option value="CET">College of Engineering Trivandrum</option>
+                                    <option value="NSS">NSS college of engineering</option>
+                                    <option value="TKM">TKM college of engineering</option>
+                                    <option value="LBS">LBS college of Engineering</option>
+                                    <option value="TEC">Thejus Engineering College</option>  
+                                </select>
+                              </div>
+                            </div>
+                            
+                            <div class="form-group row">
+                                <label for="email" class="col-sm-2 col-form-label">E-mail</label>
+                                <div class="col-sm-10">
+                                <input type="email" name="mail" id="mail" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="password" class="col-sm-2 col-form-label">Password</label>
+                                <div class="col-sm-10">
+                                <input type="password" name="pswd" id="pswd" class="form-control">
+                                </div>
+                            </div>
+                           
+                            <div class="form-group row">
+                                <div class="col-sm-6">
+                                
+                                 </div> 
+                                <div class="col-sm-6">
+                                <button type="submit" class="btn btn-success">Register</button>
+                                </div>
+                            </div>
+                         </form>
+                     
+                      </div>
+                  </div>
+              </div>   
+</body>
+</html>
